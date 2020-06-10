@@ -1,0 +1,103 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1em;
+}
+body {
+  background-color: black;
+}
+#background {
+  background-image: url("images/board.jpg");
+  margin: auto;
+  width: 1024px;
+  height: 863px;
+  position: relative;
+}
+
+.form {
+  margin: auto;
+  background-color: rgb(83, 175, 19);
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  bottom: 0px;
+  right: 0px;
+  position: fixed;
+}
+
+#inputEnter {
+  background-color: rgb(152, 207, 113);
+  border-color: rgb(83, 175, 19);
+  font-size: 1em;
+  text-transform: capitalize;
+}
+
+.buttonFire {
+  background-color: rgb(152, 207, 113);
+  border-color: rgb(83, 175, 19);
+  margin: auto;
+  margin: auto;
+}
+
+.textEnter {
+  width: auto;
+  text-align: center;
+  color: rgb(22, 61, 0);
+  text-decoration: double;
+}
+
+#logsText {
+  background: linear-gradient(to bottom, rgb(0, 0, 0) 0%, #014111 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  bottom: 0px;
+  left: 0px;
+  position: fixed;
+  padding-top: 15px;
+}
+
+.solution {
+  text-align: center;
+  background-color: rgb(152, 207, 113);
+  border-color: rgb(83, 175, 19);
+  margin: 15px;
+  margin: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5em;
+  text-shadow: black;
+}
+.reload {
+  text-align: center;
+  background-color: rgb(152, 207, 113);
+  border-color: rgb(83, 175, 19);
+  margin: 15px;
+  margin: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 1.5em;
+  text-shadow: black;
+}
+
+table {
+  position: absolute;
+  left: 173px;
+  top: 98px;
+  border-spacing: 0px;
+}
+
+td {
+  width: 94px;
+  height: 94px;
+}
+
+.hit {
+  background: url("images/ship.png") no-repeat center center;
+}
+.miss {
+  background: url("images/miss.png") no-repeat center center;
+}
